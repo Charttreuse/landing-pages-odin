@@ -1,0 +1,38 @@
+body{
+    display: block;
+    margin: 0;
+}
+
+
+.header {
+    width: 100%;
+    background-color: #4da6ff;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+
+.left {
+    margin: 0.7em 0 0.7em 2.5vw;
+    display: flex;
+    flex-direction: row;
+    width: 16em;
+    justify-content: space-between;
+}
+
+.firstBody {
+    width:100%;
+    height: 500px;
+    background-color: greenyellow;
+}
+
+.middleBody{
+    width:100%;
+    height: 500px;
+}
+
+.footer {
+    width:100%;
+    height: 100px;
+    background-color: #4da6ff;
+}
