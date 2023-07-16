@@ -1,38 +1,153 @@
-body{
-    display: block;
+body {
+    background-color: white;
+    padding: 0;
     margin: 0;
+    text-align: center;
+    font-family: Arial;
 }
 
-
-.header {
-    width: 100%;
-    background-color: #4da6ff;
+.container{
     display: flex;
-    flex-direction: row;
-    position: fixed;
+    flex-direction: column;
 }
 
-.left {
-    margin: 0.7em 0 0.7em 2.5vw;
+/*top */
+
+.navbar {
     display: flex;
-    flex-direction: row;
-    width: 16em;
-    justify-content: space-between;
+    color: white;
+    background-color: brown;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
 }
 
-.firstBody {
-    width:100%;
-    height: 500px;
-    background-color: greenyellow;
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
 }
 
-.middleBody{
-    width:100%;
-    height: 500px;
+.header_link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
 }
 
+.header_link a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    font-family: arial;
+}
+
+/* hero part*/
+.hero {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero_cta p {
+    font-family: arial;
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9f9f9;
+    margin: 0;
+    font-family: arial;
+}
+.hero_image img {
+    width: 500px;
+    height: 350px;
+}
+
+/*Content*/
+.content {
+    align-items:center;
+
+}
+.content_info{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content_info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid red;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+/*Quoute*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+}
+
+.quote p {
+    font-size: 38px;
+    color: black;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: arial;
+}
+
+.quote b{
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right;
+    font-family: arial;
+}
+
+/*Signup*/
+
+.signup {
+    margin: 50px 600px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    border: 2px solid grey;
+    
+}
+.signup_text {
+    text-align:left;
+}
+.signup_text p {
+    opacity: 0.8;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    margin: 30px 0px 0px 50px;
+    padding: 0;
+    font-family: arial;
+}
+
+.signup_button button {
+    font-family: arial;
+    border-radius: 8px;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+/*foot*/
 .footer {
-    width:100%;
-    height: 100px;
-    background-color: #4da6ff;
+    font-family: arial;
+    color: white;
+    background-color: brown;
+    
 }
